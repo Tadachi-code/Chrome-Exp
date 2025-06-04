@@ -16,7 +16,7 @@
         "service_worker": "js/background.js",
         "type": "module"
     },
-    "permissions": [],
+    "permissions": ["declarativeNetRequest", "storage"],
     "host_permissions": [
         "https://*.loilonote.app/*"
     ]
