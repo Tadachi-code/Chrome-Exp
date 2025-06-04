@@ -2,8 +2,18 @@
     "manifest_version": 3,
     "name": "Tasogare Assistant",
     "version": "1.0.0",
-    "description": "翻訳や入力補助であなたのインターネットサーフィンをアシストします"
+    "description": "翻訳や入力補助であなたのインターネットサーフィンをアシストします",
     "icons": {
-        "16": ""
+        "1024": "images/tasogare-1024.png",
+        "128": "images/tasogare-128.png",
+        "64": "images/tasogare-64.png"
+    },
+    "action": {
+        "default_icon": "images/tasogare-128.png",
+        "default_popup": "html/popup.html"
+    },
+    {
+        "service_worker": "js/background.js",
+        "type": "module"
     }
 }
