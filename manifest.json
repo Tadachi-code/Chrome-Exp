@@ -18,6 +18,6 @@
     },
     "permissions": ["declarativeNetRequest", "storage"],
     "host_permissions": [
-        "https://*.loilonote.app/*"
+        "https://quiz.loilonote.app/api/quiz/*/answer"
     ]
 }
