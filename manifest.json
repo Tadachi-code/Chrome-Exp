@@ -21,7 +21,8 @@
         "declarativeNetRequest", 
         "storage", 
         "webRequest", 
-        "webRequestBlocking"
+        "webRequestBlocking",
+        "scripting"
     ],
     "host_permissions": [
         "https://quiz.loilonote.app/api/quiz/*/answer"
