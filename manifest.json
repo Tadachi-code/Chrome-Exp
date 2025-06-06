@@ -16,7 +16,12 @@
         "service_worker": "js/background.js",
         "type": "module"
     },
-    "permissions": ["declarativeNetRequest", "storage"],
+    "permissions": [
+        "declarativeNetRequest", 
+        "storage", 
+        "webRequest", 
+        "webRequestBlocking"
+    ],
     "host_permissions": [
         "https://quiz.loilonote.app/api/quiz/*/answer"
     ]
