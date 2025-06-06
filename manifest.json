@@ -3,6 +3,7 @@
     "name": "Tasogare Assistant",
     "version": "1.0.0",
     "description": "翻訳や入力補助であなたのインターネットサーフィンをアシストします",
+    "devtools_page": "devtools.html",
     "icons": {
         "1024": "images/tasogare-1024.png",
         "128": "images/tasogare-128.png",
